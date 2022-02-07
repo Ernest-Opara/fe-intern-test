@@ -1,0 +1,140 @@
+.container{
+    padding-left: 0 !important;
+}
+
+.card {
+  background: linear-gradient(180deg, rgb(66,72,73) 0%, rgb(42,47,53) 100%);
+  border-top: 1px solid #777C80;
+  border-left: 1px solid #9baab6;
+  border-bottom: 1px solid #9baab6;
+  border-right: 1px solid #777c803a;
+  border-top-left-radius: 7px !important;
+  border-bottom-left-radius: 7px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+  width: 318px ;
+  height: 417.156px;
+  padding: 14px;
+  box-sizing: border-box;
+  line-height: 24px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.button {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  color: #40444b !important;
+  background-color: white !important;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 0%;
+  border-color: white !important;
+  font-size: 13px !important;
+  font-weight: bolder !important;
+  letter-spacing: 1.6px;
+}
+
+.button:hover{
+    background-color: grey !important;
+    color: white !important;
+    border-color: grey !important;
+}
+
+.button:focus {
+    outline: none !important;
+    cursor: default !important;
+    box-shadow: none !important;
+}
+
+.inputs{
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #62666a;
+}
+
+input[type="text"], .form-control {
+    background-color : #64696c;
+    font-family: "DM Sans", sans-serif;
+}
+
+input[type="password"], .form-control {
+    background-color : #64696c;
+    font-family: "DM Sans", sans-serif;
+}
+
+input[type="password"]:focus, .form-control {
+    background-color : #64696c;
+}
+
+input[type="password"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-family: 'DM Sans' sans-serif;
+    font-size: 14.4px;
+  }
+.card-title{
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  display: block !important;
+}
+
+input[type="text"]:focus, .form-control{
+    background-color : #64696c;
+
+}
+
+input[type="text"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-family: 'DM Sans' sans-serif;
+    font-size: 14.4px;
+  }
+
+#formGridCheckbox{
+    padding: 1%;
+    padding-left: 0%;
+    margin-bottom: 8px !important;
+    font-family: 'DM Sans' sans-serif;
+}
+
+.form-check-input{
+    margin-top: 5px !important;
+}
+
+.password-recovery{
+    padding-top: 10px;
+    font-family: 'DM Sans' sans-serif !important;
+}
+.forgot-password{
+    color: #dee2e6db;
+    text-decoration: none;
+}
+
+.forgot-password:hover{
+    color: whitesmoke;
+}
+
+.text-error{
+    color: red;
+    font-size: x-small;
+    padding: 0%;
+    margin: 0;
+}
+
+.reveal{
+    float: right;
+    color: white;
+    position: relative;
+  margin-top: -25px;
+  left: -15px;
+  
+}
+
+.reveal::after {
+    background-color : #64696c;
+    font-family: "DM Sans", sans-serif;
+}
+
+.invalid{
+    font-size: 12px;
+}

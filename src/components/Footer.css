@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 10em;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+  
+a:hover{
+    color: whitesmoke !important;
+}

@@ -1,0 +1,39 @@
+.App{
+    color: white;
+    box-sizing: border-box;
+    font-size: small;
+  }
+
+.navibar{
+    padding-top: 30px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.logo2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+  
+.navlinks{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    margin-top: 23px;
+    margin-bottom: 0%;
+  }
+  
+.link{
+    font-weight: 300;
+    padding-right: 40px;
+  }
+  
+.link a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.link a:hover{
+    color: whitesmoke;
+  }
